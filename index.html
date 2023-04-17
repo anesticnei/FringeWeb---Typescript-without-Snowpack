@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Web site created using create-snowpack-app"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/components.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/media.css" />
+    
+    <title>Fringe</title>
+  </head>
+  <body>
+    <header class="nav-container nav-background sticky top-0">
+      <div class="nav-wrapper max-width margin-0-auto flex items-center justify-between padd-in-section padd-block-nav main-tex-color-section-black">
+        <a href="#" class="logo-container flex items-center justify-between gap-04rem main-tex-color-section-dark text-decolist-none">
+            <div class="logo-wrapper logo-width">  
+              <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 150 150.001">
+                <path class="logo-text" id="simple-logo" d="M150,150H50V100H0V0H100V50h50V150ZM50,100h50V50H50Z" fill="#fff"/>
+              </svg>
+            </div>
+            <span class="font-weight-600">Fringe</span>
+        </a>
+        <nav class="nav-links-wrapper">
+          <ul class="nav-links text-decolist-none flex justify-between items-center  nav-gap font-weight-400" data-visible="false">
+            <li class="link cursor-pointer padd-block-04rem padd-in-nav">
+              <a href="#" class="main-tex-color-section-dark text-decolist-none"> For fans</a>
+            </li>
+            <li class="link cursor-pointer padd-block-04rem padd-in-nav">
+              <a href="#" class="main-tex-color-section-dark text-decolist-none">For artist</a>
+            </li>
+            <li class="link cursor-pointer padd-block-04rem padd-in-nav">
+              <a href="#" class="main-tex-color-section-dark text-decolist-none">Listenings</a>
+            </li>
+            <li class="link cursor-pointer padd-block-04rem padd-in-nav">
+              <a href="#" class="main-tex-color-section-dark text-decolist-none">About</a>
+            </li>
+            <li class="link cursor-pointer padd-block-04rem padd-in-nav">
+              <a href="#" class="main-tex-color-section-dark text-decolist-none">Blog</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="#" class="login-link btn-hover text-decolist-none font-weight-600 padd-block-04rem padd-in-2rem border-rounded-button"><span>Log in</span></a>
+        <div class="mobile-nav-toggle hamburger-wrapper nav-items flex-center relative cursor-pointer">
+          <button class=" hamburger-icon relative border-none flex items-center justify-center w-full" aria-controls="nav-links" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>   
+      </div>
+    </header>
+    <main>
+      <section class="hero-container section-black ">
+        <div class="hero-wrapper max-width margin-0-auto padd-in-section padd-block-4rem grid grid-temp-col gap-4rem fade-in">
+          
+          <div class="text-wrapper w-full flex-col-start gap-2rem">
+          <h1 class="main-tex-color-section-dark title-text">Invest in breakout music</h1>
+          <div class="flex gap-1rem items-center justify-between">
+            <div class="icon-wrapper button-background-white flex-center">  
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 42 42">
+                <g id="music-icon" transform="translate(14502 -14042)">
+                  <rect id="Rectangle_113" data-name="Rectangle 113" width="42" height="42" rx="21" transform="translate(-14502 14042)"/>
+                  <path id="Icon_ionic-ios-musical-note" data-name="Icon ionic-ios-musical-note" d="M25.615,3.389c-.33.063-8.3,1.695-8.592,1.751a.623.623,0,0,0-.57.563h0V23.639a1.939,1.939,0,0,1-.169.823,1.874,1.874,0,0,1-1.132.893c-.232.077-.548.148-.921.232-1.695.38-4.528,1.027-4.528,3.642a3.262,3.262,0,0,0,2.461,3.312,5.282,5.282,0,0,0,.97.07,8.322,8.322,0,0,0,3.6-.928,3.788,3.788,0,0,0,1.695-3.361V12.171a.558.558,0,0,1,.45-.548L25.4,10.287a1.129,1.129,0,0,0,.9-1.1V3.923A.556.556,0,0,0,25.615,3.389Z" transform="translate(-14498.543 14044.507)" fill="#fff"/>
+                </g>
+              </svg>
+              
+            </div>
+            <p class="main-tex-color-section-dark parag-text">Invest in the streaming royalities of the artist you love before the explode into mass media</p>
+          </div>
+          <div class="action-wrapper padd-top-2rem flex items-center justify-between gap-2rem">
+            <a href="" class="action-btn btn-hover text-decolist-none font-weight-600 padd-block-1rem padd-in-1rem font-btn">Latest drop</a>
+            <span class="action-time flex items-center justify-between gap-04rem main-tex-color-section-black">
+              <div class="icon-spec flex-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 29.25 29.25">
+                  <g id="time" transform="translate(-3.375 -3.375)">
+                    <path id="Path_102" data-name="Path 102" d="M17.986,3.375A14.625,14.625,0,1,0,32.625,18,14.62,14.62,0,0,0,17.986,3.375ZM18,29.7A11.7,11.7,0,1,1,29.7,18,11.7,11.7,0,0,1,18,29.7Z" fill="rgba(142,142,142,0.9)"/>
+                    <path id="Path_103" data-name="Path 103" d="M18.731,10.688H16.538v8.775l7.678,4.605,1.1-1.8-6.581-3.9Z" fill="rgba(142,142,142,0.9)"/>
+                  </g>
+                </svg>
+                
+              </div>
+              <p class="last-drop-time parag-text parag-color-section-dark">2d 16h left</p>
+            </span>
+          </div>
+        </div>
+
+
+        <div class="random-artist-container">
+
+                    <!-- <div class="artist-container">
+                                  <div class="artist-wrapper margin flex items-center justify-between gap-04rem">
+                                              <div class="artist-avatar">
+                                                <img class="artist-avatar-img wh-full" src="https://images.unsplash.com/flagged/photo-1563205764-79ea509b3e95?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1561&q=80" alt="">
+                                              </div>
+                                              <div class="artist-info w-full flex items-center justify-between gap-04rem padd-right-04rem">
+
+                                                        <div class="artist-name flex-col-start gap-04rem">
+                                                          <h2 class="uppercase font-size-span">Cloud 9</h2>
+                                                          <p class="font-size-paragraph">Allan Kingdom</p>
+                                                        </div>
+                                                <a href="" class="btn-hover button-background-white main-tex-color-section-white text-decolist-none font-weight-600 padd-block-04rem padd-in-1rem parag-text">Latest release</a>
+                                              </div>
+                                  </div>
+                    </div> -->
+      </div>
+      </section>
+      <section class="breake-section">
+        <div class="breake-column-one"></div>
+        <div class="breake-column-two"></div>
+        <div class="break-images-wrapper padd-in-2rem flex items-center break-gap">
+          
+          
+          <div class="breake-img break-img-two fade-in-img-one">
+            <img class="breake-img-width" src="https://www.theweeknd.com/files/2021/10/photo_202110_07_GENERAL-BRIANZIFF_THEWEEKND_800_1-WITH-BEAUTY-crop-1.jpeg" alt="Weeknd Picture">
+          </div>
+          <div class="breake-img break-img-two fade-in-img-one">
+            <img class="breake-img-width" src="https://rytmy.pl/wp-content/uploads/2021/07/Tiesto.jpg" alt="Tiesto Picture">
+          </div>
+          <div class="breake-img break-img-one fade-in-img-one">
+            <img class="breake-img-width" src="https://musicodex.pl/wp-content/uploads/2021/03/img_5043.jpg" alt="Daft Punk Picture">
+          </div>
+ 
+          <div class="breake-img break-img-one fade-in-img-two">
+            <img class="breake-img-width" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Future_-_Openair_Frauenfeld_2019_01_%28cropped%29.jpg" alt="Future Picture">
+          </div>
+          <div class="breake-img break-img-two fade-in-img-one">
+            <img class="breake-img-width" src="https://www.eminem.pro/wp-content/uploads/2020/02/em2010.jpg" alt="Eminem Picture">
+          </div>
+          <div class="breake-img break-img-one fade-in-img-two">
+            <img class="breake-img-width" src="https://media.allure.com/photos/605247e1bddfa641546fa160/1:1/w_2264,h_2264,c_limit/billie%20eilish.jpg" alt="Billie Elish Picture">
+          </div>
+          <div class="breake-img break-img-one fade-in-img-two">
+            <img class="breake-img-width" src="https://yt3.googleusercontent.com/ytc/AL5GRJU9cqqMsIBsfgueCzUvrOjf774u4cJPzQ1YVtQTCw=s900-c-k-c0x00ffffff-no-rj" alt="David Guetta Picture">
+          </div>
+          <div class="breake-img break-img-two fade-in-img-one">
+            <img class="breake-img-width" src="https://cdn.statically.io/img/muzotakt.pl/wp-content/uploads/2019/04/54800755_999214053617720_1262782754607229764_n2-1024x868.jpg?quality=80&f=auto" alt="Rihanna Picture">
+          </div>
+          <div class="breake-img break-img-one fade-in-img-two">
+            <img class="breake-img-width" src="https://i1.sndcdn.com/avatars-000439714596-o1kr6p-t500x500.jpg" alt="Dua Lipa Picture">
+          </div>
+          <div class="breake-img break-img-two fade-in-img-one">
+            <img class="breake-img-width" src="https://i2-prod.dailystar.co.uk/incoming/article26107480.ece/ALTERNATES/s615/0_TWO-x-TWO-For-AIDS-And-Art-2021-Gala-And-Auction.jpg" alt="Rita Ora Picture">
+          </div>
+          <div class="breake-img break-img-two fade-in-img-one">
+            <img class="breake-img-width" src="https://yt3.googleusercontent.com/in7ji16oeon_ypiAMeH-ZdTWSaIC54yZqMsFg0X3uhTBk4MDCuIkRf6TIoQQCqjl20DSdakhSQ=s900-c-k-c0x00ffffff-no-rj" alt="Martin Garrix Picture">
+          </div>
+          <div class="breake-img break-img-one fade-in-img-two">
+            <img class="breake-img-width" src="https://hips.hearstapps.com/hmg-prod/images/justin-bieber-gettyimages-1202421980.jpg?resize=1200:*" alt="Justin Bieber Picture">
+          </div>
+        </div>
+      </div>
+
+      </section>
+      <section class="section-white padd-block-section ">
+        <div class="fade-in max-width margin-0-auto padd-in-section padd-block-4rem grid grid-temp-col gap-4rem">
+          <div class="text-wrapper w-full flex-col-start">
+            <h1 class="main-tex-color-section-white title-text">Our roster is dedicated to growth</h1>
+          </div>
+          <div class="text-wrapper-description flex-col-start gap-1rem">
+            <p class="main-tex-color-section-white parag-text padd-block-1rem ">Every feel like you're heard the next superstar? Parner with them on Fringe.</p>
+              <a href="" class="action-btn text-fade flex items-center justify-between gap-1rem text-decolist-none">
+                
+                <p class="main-tex-color-section-white font-weight-600 font-btn white-space">How it works</p>
+                <div class="icon-wrapper flex-center">  
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 25.242">
+                    <g id="arrow-rigth" transform="translate(-6 -5.379)">
+                      <path id="Path_105" data-name="Path 105" d="M7.5,18h21" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                      <path id="Path_106" data-name="Path 106" d="M18,7.5,28.5,18,18,28.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                    </g>
+                  </svg>                  
+                </div>
+              </a>
+          </div>
+        </div>
+      </section>
+      <section class="section-white ">
+        <div class="max-width margin-0-auto flex-col-start gap-2rem fade-in">
+          <div class="artist-selection-wrapper flex items-center justify-between w-full padd-in-section">            
+          </div>
+          <div class="selected-artist-container padd-in-section-container padd-block-section relative">
+        </div>
+        </div>
+      </section>
+
+      <section class="breake-section-white-dark w-full flex">
+        <div class="break-col-one w-full"></div>
+        <div class="break-col-two w-full"></div>
+      </section>
+      <section class="section-dark padd-block-before-break padd-top-4rem">
+        <div class="fade-in max-width margin-0-auto padd-in-section padd-block-4rem grid grid-temp-col gap-4rem">
+          <div class="text-wrapper w-full flex-col-start">
+            <h1 class="main-tex-color-section-dark title-text">Our roster is dedicated to growth</h1>
+          </div>
+          <div class="text-wrapper-description flex-col-start gap-1rem">
+            <p class="main-tex-color-section-dark parag-text padd-block-1rem ">Every feel like you're heard the next superstar? Parner with them on Fringe.</p>
+              <a href="" class="action-btn text-fade flex items-center justify-between gap-1rem text-decolist-none">
+                
+                <p class="main-tex-color-section-dark font-weight-600 font-btn white-space">How it works</p>
+                <div class="icon-wrapper flex-center">  
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 25.242">
+                    <g id="arrow-rigth" transform="translate(-6 -5.379)">
+                      <path id="Path_105" data-name="Path 105" d="M7.5,18h21" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                      <path id="Path_106" data-name="Path 106" d="M18,7.5,28.5,18,18,28.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                    </g>
+                  </svg>                  
+                </div>
+              </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="padd-block-before-break padd-top-4rem relative over-hidden">
+        <div class="fade-in padd-in-2rem flex items-center break-gap picture-wrapper">
+        </div>
+      </section>
+      <section class="breake-section-white-dark w-full flex">
+        <div class="break-col-two w-full"></div>
+        <div class="break-col-one w-full"></div>
+      </section>
+
+
+
+
+
+
+      <section class="section-white padd-between-break padd-top-4rem">
+          <div class="max-width margin-0-auto padd-in-section padd-block-4rem grid grid-temp-col gap-4rem fade-in">
+            
+            <div class="text-wrapper w-full flex-col-start gap-2rem">
+            <h1 class="main-tex-color-section-white title-text">This is <span class="text-decoration-line-through">Collectible </span> Partnership</h1>
+            <div class="flex gap-1rem items-center justify-between">              
+              <p class="main-tex-color-section-white parag-text">Standout from the crowd, join the inner circle, help grow your favorite artist. The modern street team is earning real dollars, not checking tickets at the door. Earn perks for helping.</p>
+            </div>
+            <div class="action-wrapper padd-top-2rem flex items-center justify-between gap-2rem">
+              <a href="" class="action-btn explore-btn text-decolist-none font-weight-600 padd-block-1rem padd-in-1rem font-btn">Explore listings</a>
+              <a href="" class="action-btn how-btn text-decolist-none font-weight-600 padd-block-1rem padd-in-1rem font-btn">How it works</a>
+            </div>
+          </div>
+  
+  
+          <div class="random-artist-container boxes-wraper grid wh-full">
+
+            <div class="box-one-wrapper wh-full flex flex-col items-start padd-1rem relative">
+                      <div class="flex items-center justify-between w-full">
+                                <div class="flex items-center gap-04rem">
+                                    <div class="art-img-wrapper relative flex-center border-rounded-full over-hidden">
+                                      <img class="w-full object-cover breake-img-width" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt="">
+                                    </div>
+                                    <h1 data-visible="true" class="main-tex-color-section-white font-weight-600 artis-font-active">Allan Kingdom</h1>
+                                </div>
+                                <div class="padd-in-1rem padd-block-04rem box-btn-bg border-rounded-full font-btn">Team task</div>
+                        </div>
+                        <p class="main-tex-color-section-white parag-text">Let's blow this song up!🔥 Everyone call the radio and put it on the map!</p>
+                        <div class="icon-box absolute flex items-center gap--1rem">
+
+                          <div class="art-icon-1 absolute flex-center border-rounded-full over-hidden">
+                            <img class="w-full object-cover breake-img-width" src="https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt="">
+                          </div>
+                          <div class="art-icon-2 absolute flex-center border-rounded-full over-hidden">
+                            <img class="w-full object-cover breake-img-width" src="https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1532&q=80" alt="">
+                          </div>
+                          <div class="art-icon-3 absolute flex-center border-rounded-full over-hidden">
+                            <img class="w-full object-cover breake-img-width" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt="">
+                          </div>
+                          <p class="art-icon-4 absolute main-tex-color-section-white parag-text white-space">+ 188   more</p>
+                        </div>
+              </div>
+
+
+
+
+
+            <div class="box-two-wrapper wh-full flex flex-col items-start justify-between padd-1rem">
+              <div class="flex items-center justify-between w-full">
+                          <p class="main-tex-color-section-dark font-weight-600 artis-font-active">Your earnings</p>  
+                          <p class="main-tex-color-section-dark font-weight-600 artis-font-active">+ 29.41%</p>  
+                </div>
+                <span class="main-tex-color-section-dark font-size-title">$941.94</span>
+                <div class="icon-box relative flex items-center gap--1rem">
+      </div>
+            </div>
+
+            <div class="box-three-wrapper wh-full flex flex-col gap-04rem items-start justify-between padd-1rem">
+                      <div class="flex items-center justify-between w-full">
+                                <div class="flex items-center gap-04rem">
+                                    <div class="art-img-wrapper relative flex-center border-rounded-full over-hidden">
+                                      <img class="w-full object-cover breake-img-width" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt="">
+                                    </div>
+                                    <h1 data-visible="true" class="main-tex-color-section-white font-weight-600 artis-font-active">Allan Kingdom</h1>
+                                </div>
+                                <div class="padd-in-1rem padd-block-04rem box-btn-bg border-rounded-full font-btn">Gift</div>
+                        </div>
+                        <p class="main-tex-color-section-white parag-text">You guys rock! Here's a secret merch for all of you who compleated task! 🙌</p>
+                        
+                        <div class="action-wrapper padd-top-2rem flex items-center justify-between gap-2rem w-full">
+                          <div class="main-tex-color-section-dark button-background-dark text-decolist-none flex-center font-weight-600 padd-block-1rem padd-in-1rem font-btn w-full ">Claim free Merch</div>
+                        </div>
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        </section>
+        <section class="breake-section-white-dark w-full flex">
+          <div class="break-col-one w-full"></div>
+          <div class="break-col-two w-full"></div>
+        </section>
+        <section class="section-dark padd-between-break padd-top-4rem">
+          <div class="max-width margin-0-auto padd-in-section padd-block-4rem grid grid-temp-col gap-4rem fade-in">
+            <div class="text-wrapper w-full flex flex-col justify-center gap-2rem">
+            <h1 class="main-tex-color-section-dark title-text w-full">Reports on your partnership</h1>
+            <div class="flex gap-1rem items-center justify-between">              
+              <p class="main-tex-color-section-dark parag-text">See the impact and stay on top of the buzz. When your artist are making noise, you'll be the first to know.</p>
+            </div>
+            <div class="action-wrapper padd-top-2rem flex items-center justify-between gap-2rem">
+              <a href="" class="action-btn btn-hover text-decolist-none font-weight-600 padd-block-1rem padd-in-1rem font-btn">Explore Listenings</a>
+            </div>
+          </div>          
+          <div class="slider-container flex-center">
+             <div class="slider-wrapper flex justify-between items-center">
+                  <div class="prev-arrow arrow-prev padd-in-1rem cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="100%" viewBox="0 0 24 25.242">
+                      <g id="arrow-left" transform="translate(30 30.621) rotate(180)">
+                        <path id="Path_105" data-name="Path 105" d="M7.5,18h21" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                        <path id="Path_106" data-name="Path 106" d="M18,7.5,28.5,18,18,28.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                      </g>
+                  </div>              
+                  <div class="slider-box relative wh-full">
+                    <div class="relative">
+                      <div class="slider-card flex gap-04rem absolute wh-full z-i-10">
+                        <div class="slide-tab"></div>
+                        <div class="slide-tab slide-tab-no-active"></div>
+                        <div class="slide-tab slide-tab-no-active"></div>
+                        <div class="slide-tab slide-tab-no-active"></div>
+                      </div>
+                    </div>
+                  </div>              
+                  <div class="next-arrow arrow-next padd-in-1rem cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="100%" viewBox="0 0 24 25.242">
+                      <g id="arrow-right" transform="translate(-6 -5.379)">
+                        <path id="Path_105" data-name="Path 105" d="M7.5,18h21" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                        <path id="Path_106" data-name="Path 106" d="M18,7.5,28.5,18,18,28.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                      </g>
+                    </svg>
+                  </div>
+              </div>
+          </div>
+          </div>
+        </section>
+        <section class="breake-section-white-dark w-full flex">
+          <div class="break-col-two w-full"></div>
+          <div class="break-col-one w-full"></div>
+        </section>
+        <section class="section-white padd-between-break padd-top-4rem">
+          <div class="max-width margin-0-auto padd-in-section padd-block-4rem grid grid-temp-col gap-4rem fade-in">
+            <div class="text-wrapper w-full flex-col-start gap-2rem">
+            <h1 class="main-tex-color-section-white title-text">Tap into streaming revenue</h1>
+            <div class="flex gap-1rem items-center justify-between">              
+              <p class="main-tex-color-section-white parag-text">Streaming is set to propel globac music revenue to record hights</p>
+            </div>
+            <div class="action-wrapper padd-top-2rem flex items-center justify-between gap-2rem">
+              <a href="" class="action-btn explore-btn text-decolist-none font-weight-600 padd-block-1rem padd-in-1rem font-btn">Explore listings</a>
+              <a href="" class="action-btn how-btn text-decolist-none font-weight-600 padd-block-1rem padd-in-1rem font-btn">How it works</a>
+            </div>
+          </div> 
+          <div class="streaming-wraper grid wh-full relative">
+            <div class="streaming-revenue-box-1 wh-full flex flex-col items-start padd-1rem gap-04rem">
+              <span class="main-tex-color-section-white font-size-title">$38.4B</span>
+               <p class="main-tex-color-section-white font-weight-600 artis-font-active">2032 est. streaming revenue</p>  
+              </div>
+                  <div class="streaming-revenue-box-2 wh-full flex flex-col items-start padd-1rem gap-04rem">
+                    <span class="main-tex-color-section-dark font-size-title">$16.3B</span>
+                    <p class="main-tex-color-section-dark font-weight-600 artis-font-active">2022 streaming revenue</p>  
+                  </div>
+ <p class="text-beyond-wrapper w-full absolute left-0 flex flex-center main-tex-color-section-white font-size-paragraph">2032 est. streaming revenue</p>  
+          </div>
+        </div>
+        </div>
+        </section>
+        <section class="breake-section-white-dark w-full flex">
+          <div class="break-col-one w-full"></div>
+          <div class="break-col-two w-full"></div>
+        </section>
+      <section class="breake-section-dark-white"></section>
+<section class="section-black padd-between-break padd-top-4rem w-full">
+      <div class="max-width margin-0-auto padd-block-4rem flex flex-col  gap-4rem fade-in">      
+          <div class="grid grid-temp-col gap-4rem padd-in-section ">
+              <h1 class="main-tex-color-section-dark title-text w-full">Empowering independnce</h1>        
+                <div class="flex justify-center items-end gap-1rem">      
+                </div>
+          </div>              
+              <div class="exploring-container padd-top-4rem relative padd-in-section">
+
+                <div class="exploring-wrapper flex gap-4rem items-start">
+
+                    <div class="exploring-content-big flex flex-col items-start gap-1rem">
+                      <div class="exploring-img img-big">
+                        <img class="wh-full" src="https://images.unsplash.com/photo-1561915753-ad7e8806681d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+                      </div>
+                      <div class="flex gap-1rem items-center justify-between">              
+                        <p class="exploring-content-big main-tex-color-section-dark parag-text text-ellipsis">Is this band on the way to become UK's most random thing ever?</p>
+                      </div>
+                      <div class="exploring-tags-wrapper flex items-center gap-04rem">
+                        <div class="padd-in-1rem padd-block-04rem button-background-dark-grey main-tex-color-section-dark border-rounded-full font-btn">UK</div>
+                        <div class="padd-in-1rem padd-block-04rem button-background-dark-grey main-tex-color-section-dark border-rounded-full font-btn">Indie</div>
+                        <div class="padd-in-1rem padd-block-04rem button-background-dark-grey main-tex-color-section-dark border-rounded-full font-btn">Random</div>
+                        <div class="padd-in-1rem padd-block-04rem button-background-dark-grey main-tex-color-section-dark border-rounded-full font-btn">Moist</div>
+                      </div>
+                    </div>
+                    <div class="exploring-content flex flex-col items-start justify-start gap-1rem">
+                      <div class="exploring-img">
+                        <img class="wh-full" src="https://images.unsplash.com/35/hKViPxgDRGuiGns6wv5S_IMG_5317.jpeg?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+                      </div>
+                      <div class="flex gap-1rem items-center justify-between">              
+                        <p class="exploring-content main-tex-color-section-dark parag-text text-ellipsis">How a visual artist redefines succes in something good i don't know?</p>
+                      </div>
+                      <div class="exploring-tags-wrapper flex items-center gap-04rem">
+                        <div class="padd-in-1rem padd-block-04rem button-background-dark-grey main-tex-color-section-dark border-rounded-full font-btn">Indie</div>
+                        <div class="padd-in-1rem padd-block-04rem button-background-dark-grey main-tex-color-section-dark border-rounded-full font-btn">Random</div>
+                        <div class="padd-in-1rem padd-block-04rem button-background-dark-grey main-tex-color-section-dark border-rounded-full font-btn">Moist</div>
+                      </div>
+                    </div>
+                    <div class="exploring-content flex flex-col items-start justify-start gap-1rem">
+                      <div class="exploring-img">
+                        <img class="wh-full" src="https://images.unsplash.com/photo-1637344630895-3dbeab5e7190?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80" alt="">
+                      </div>
+                      <div class="flex gap-1rem items-center justify-between">              
+                        <p class="exploring-content main-tex-color-section-dark parag-text text-ellipsis">How a visual artist redefines succes in something good i don't know?</p>
+                      </div>
+                      <div class="exploring-tags-wrapper flex items-center gap-04rem">
+                        <div class="padd-in-1rem padd-block-04rem button-background-dark-grey main-tex-color-section-dark border-rounded-full font-btn">Indie</div>
+                        <div class="padd-in-1rem padd-block-04rem button-background-dark-grey main-tex-color-section-dark border-rounded-full font-btn">Random</div>
+                        <div class="padd-in-1rem padd-block-04rem button-background-dark-grey main-tex-color-section-dark border-rounded-full font-btn">Moist</div>
+                      </div>
+                    </div>
+                    <div class="exploring-content flex flex-col items-start gap-1rem">
+                      <div class="exploring-img img-big">
+                        <img class="wh-full" src="https://images.unsplash.com/photo-1466253985008-19ae27987e03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80" alt="">
+                      </div>
+                      <div class="flex gap-1rem items-center justify-between">              
+                        <p class="exploring-content main-tex-color-section-dark parag-text text-ellipsis">Is this band on the way to become UK's most random thing ever?</p>
+                      </div>
+                      <div class="exploring-tags-wrapper flex items-center gap-04rem">
+                        <div class="padd-in-1rem padd-block-04rem button-background-dark-grey main-tex-color-section-dark border-rounded-full font-btn">UK</div>
+                        <div class="padd-in-1rem padd-block-04rem button-background-dark-grey main-tex-color-section-dark border-rounded-full font-btn">Indie</div>
+                        <div class="padd-in-1rem padd-block-04rem button-background-dark-grey main-tex-color-section-dark border-rounded-full font-btn">Random</div>
+                        <div class="padd-in-1rem padd-block-04rem button-background-dark-grey main-tex-color-section-dark border-rounded-full font-btn">Moist</div>
+                      </div>
+                    </div>
+                    <div class="exploring-content-big flex flex-col items-start gap-1rem">
+                      <div class="exploring-img img-big">
+                        <img class="wh-full" src="https://images.unsplash.com/photo-1496208612508-eb52fba7d94e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80" alt="">
+                      </div>
+                      <div class="flex gap-1rem items-center justify-between">              
+                        <p class="exploring-content-big main-tex-color-section-dark parag-text text-ellipsis">Is this band on the way to become UK's most random thing ever?</p>
+                      </div>
+                      <div class="exploring-tags-wrapper flex items-center gap-04rem">
+                        <div class="padd-in-1rem padd-block-04rem button-background-dark-grey main-tex-color-section-dark border-rounded-full font-btn">UK</div>
+                        <div class="padd-in-1rem padd-block-04rem button-background-dark-grey main-tex-color-section-dark border-rounded-full font-btn">Indie</div>
+                        <div class="padd-in-1rem padd-block-04rem button-background-dark-grey main-tex-color-section-dark border-rounded-full font-btn">Random</div>
+                        <div class="padd-in-1rem padd-block-04rem button-background-dark-grey main-tex-color-section-dark border-rounded-full font-btn">Moist</div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="action-wrapper padd-top-2rem flex items-center justify-between gap-2rem padd-in-section ">
+                <a href="" class="action-btn btn-hover text-decolist-none font-weight-600 padd-block-1rem padd-in-1rem font-btn">All Articles</a>
+              </div>
+      </div>
+    </section>
+  </main>
+      <footer class="footer-container padd-between-break padd-top-4rem w-full">
+
+        <div class="max-width margin-0-auto padd-in-section padd-block-4rem flex flex-col gap-4rem fade-in">
+
+          <div class="flex items-start justify-between flex-wrap gap-2rem padd-block-section w-full">            
+                  <div class="flex-col-start w-full">              
+                    <a href="#" class="logo-container flex items-center justify-between gap-04rem main-tex-color-section-dark text-decolist-none">
+                      <div class="logo-wrapper logo-width">  
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 150 150.001">
+                          <path class="logo-text" id="simple-logo" d="M150,150H50V100H0V0H100V50h50V150ZM50,100h50V50H50Z" fill="#fff"/>
+                        </svg>
+                      </div>
+                      <span class="font-weight-600">Fringe</span>
+                  </a>
+                  </div>            
+                  <ul class="flex-col-start flex-wrap gap-1rem main-tex-color-section-dark parag-text w-full text-decolist-none">
+                    <li><a class="text-color-section-dark text-decolist-none" href="#">Helpful links</a></li>
+                    <li><a class="text-color-section-dark text-decolist-none" href="#">For Artist</a></li>
+                    <li><a class="text-color-section-dark text-decolist-none" href="#">FAQs</a></li>
+                    <li><a class="text-color-section-dark text-decolist-none" href="#">Contact</a></li>
+                    <li><a class="text-color-section-dark text-decolist-none" href="#"></a></li>
+                  </ul>
+                  <ul class="flex-col-start gap-1rem main-tex-color-section-dark parag-text w-full text-decolist-none">
+                    <li><a class="text-color-section-dark text-decolist-none" href="#">Carrers</a></li>
+                    <li><a class="text-color-section-dark text-decolist-none" href="#">A&R - Contract</a></li>
+                  </ul>
+                  <ul class="flex-col-start gap-1rem main-tex-color-section-dark parag-text w-full text-decolist-none">
+                    <li><a class="text-color-section-dark text-decolist-none" href="#">Social</a></li>
+                    <li><a class="text-color-section-dark text-decolist-none" href="#">Spotify</a></li>
+                    <li><a class="text-color-section-dark text-decolist-none" href="#">Instagram</a></li>
+                  </ul>
+                </div>
+
+                <div class="flex items-center justify-between gap-2rem flex-wrap padd-block-4rem w-full">
+                    <ul class="flex items-center gap-1rem main-tex-color-section-dark parag-text w-full text-decolist-none">
+                      <li><a class="text-color-section-dark parag-text text-decolist-none" href="#">Legal</a></li>
+                      <li><a class="text-color-section-dark parag-text text-decolist-none" href="#">Privacy Policy</a></li>
+                      <li><a class="text-color-section-dark parag-text text-decolist-none" href="#">Cookies</a></li>
+                    </ul>
+                    <p class="text-color-section-dark parag-text white-space">© 2023 Fringe</p>
+                </div>
+
+
+        </div>
+    </footer>
+    <script src="/dest/app.js"></script>
+  </body>
+</html>
